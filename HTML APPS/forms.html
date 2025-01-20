@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reg form and controls</title>
+</head>
+
+<body bgcolor="pink">
+    <center>
+        <h2>Registration Form</h2>
+
+
+        <form name="f1" action="myservlet1">
+
+            <table bgcolor="gold" cellspacing="15px" cellpadding="3px">
+
+                <tr>
+                    <td>
+                        <label for="id1">student name</label>
+                        <br>
+                        <input type="text" name="n1" id="id1" placeholder="enter student name" required>
+
+                    </td>
+
+                    <td>
+                        <label for="id2"> mobile number</label>
+                        <br>
+                        <input type="number" name="n2" id="id2" placeholder="enter mobile num" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="1d3">email</label>
+                        <br>
+
+                        <input type="email" name="n3" id="id3" placeholder="enter mail id" required>
+
+                    </td>
+
+                    <td>
+                        <label>dop</label>
+                        <br>
+                        <select>
+                            <option value="date">date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <SElect>
+                            <option value="month">month</option>
+                            <option value="Jan">jan</option>
+                            <option value="feb">feb</option>
+                            <option value="march">march</option>
+                            <option value="april">april</option>
+                            <option value="may">may</option>
+                            <option value="June">june</option>
+                            <option value="july">july</option>
+                            <option value="aug">aug</option>
+                            <option value="sep">sep</option>
+                            <option value="oct">oct</option>
+                            <option value="nov">nov</option>
+                            <option value="dec">dec</option>
+                        </SElect>
+                        <select>
+                            <option value="year">year</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id4">gender</label>
+
+
+
+                        <br>
+                        <input type="radio" value="male" name="n4" id="id41">male
+                        <input type="radio" value="female" name="n4" id="id42">female
+                        <input type="radio" value="other" name="n4" id="id43">other
+
+
+
+                    </td>
+
+                    <td>
+                        <label>Degree</label>
+
+                        <br>
+                        <SElect>
+                            <option value="SELECT option">select</option>
+                            <option value="DIPLOMA">DIPLOMA</option>
+                            <option value="ug">UG</option>
+                            <option value="PG">PG</option>
+                            <option value="PHD">PHD</option>
+                        </SElect>
+
+
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <label for="id5"> conform password</label>
+
+
+                        <br>
+
+                        <input type="password" name="n5" id="id5" placeholder="enter password" required>
+
+
+                    </td>
+                    <td>
+                        <label for="id6">password</label>
+                        <br>
+                        <input type="password" name="n6" id="id6" placeholder="enter conform password" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id7">upload resume</label>
+                        <br>
+                        <input type="file" name="n7" id="id7">
+
+                    </td>
+
+                    <td>
+                        <label for="id8">linkedin</label>
+
+                        <br>
+
+                        <input type="url" name="n8" id="id8" placeholder="paste url">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>adderss</label>
+                        <br>
+                        <textarea rows="7" cols="20">
+
+                        </textarea>
+                    </td>
+
+
+                    <td><label>skills</label>
+
+
+
+                        <br>
+                        <input type="checkbox" value="java" >java <br>
+                        <input type="checkbox" value="python" >python <br>
+                        <input type="checkbox" value="sql">sql
+
+
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id9">
+                            student country
+                        </label>
+                        <br>
+
+                        <input type="text" name="n9" id="id9" value="INDIA" readonly required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+
+                    <td>
+                        <input type="checkbox" value="i agree to the terms of use" required>i agree to the terms of use
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <input type="submit" value="register">
+                        <input type="reset" value="clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </center>
+</body>
+
+</html>
